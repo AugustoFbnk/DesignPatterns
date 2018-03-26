@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Patterns.Behavioral.Command;
 
 namespace Patterns
 {
@@ -29,8 +30,17 @@ namespace Patterns
             #endregion
 
             #region Iterator
+
             //var iterator = new CallIterator();
             //iterator.Call();
+
+            #endregion
+
+            #region Command
+
+            //var command = new CallCommand();
+            //command.Call();
+
             #endregion
         }
     }

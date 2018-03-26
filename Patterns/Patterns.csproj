@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\CallCommand.cs" />
+    <Compile Include="Behavioral\Command\Command\FinishCommand.cs" />
+    <Compile Include="Behavioral\Command\Invoker\InvokeAction.cs" />
+    <Compile Include="Behavioral\Command\Command\StartCommand.cs" />
+    <Compile Include="Behavioral\Command\Interface\ICommand.cs" />
+    <Compile Include="Behavioral\Command\Process.cs" />
     <Compile Include="Structural\Decorator\CallDecorator.cs" />
     <Compile Include="Structural\Decorator\Component.cs" />
     <Compile Include="Structural\Decorator\ComponentADecotator.cs" />
