@@ -14,6 +14,7 @@ using Patterns.Creational.AbstractFactory;
 using Patterns.Structural.Adapter.Adapters;
 using Patterns.Structural.Adapter.Interfaces;
 using Patterns.Structural.Adapter;
+using Patterns.Behavioral.Strategy;
 
 namespace Patterns
 {
@@ -50,7 +51,7 @@ namespace Patterns
             #endregion
 
             #region Abstract Factory
-            
+
             //var concreteFactoryA = new ConcreteFactoryFile1();
             //var abstractFactory = new CallAbstractFactory();
             //abstractFactory.Call(concreteFactoryA);
@@ -62,6 +63,11 @@ namespace Patterns
             //var adapter = new CallAdapter();
             //adapter.Call();
 
+            #endregion
+
+            #region Strategy
+            //var strategy = new CallStrategy();
+            //strategy.Call();
             #endregion
         }
     }

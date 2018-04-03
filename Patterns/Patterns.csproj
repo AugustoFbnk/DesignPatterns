@@ -47,6 +47,14 @@
     <Compile Include="Behavioral\Command\Command\StartCommand.cs" />
     <Compile Include="Behavioral\Command\Interface\ICommand.cs" />
     <Compile Include="Behavioral\Command\Process.cs" />
+    <Compile Include="Behavioral\Strategy\CallStrategy.cs" />
+    <Compile Include="Behavioral\Strategy\CountriesLaws\BrazilLaws.cs" />
+    <Compile Include="Behavioral\Strategy\CountriesLaws\GermanLaws.cs" />
+    <Compile Include="Behavioral\Strategy\CountriesLaws\UsaLaws.cs" />
+    <Compile Include="Behavioral\Strategy\Interface\IStrategyLaws.cs" />
+    <Compile Include="Behavioral\Strategy\StrategyLaws\StrategyBrazil.cs" />
+    <Compile Include="Behavioral\Strategy\StrategyLaws\StrategyGerman.cs" />
+    <Compile Include="Behavioral\Strategy\StrategyLaws\StrategyUsa.cs" />
     <Compile Include="Creational\AbstractFactory\Abstract\AbstractFactoryFiles.cs" />
     <Compile Include="Creational\AbstractFactory\Abstract\AbstractFileA.cs" />
     <Compile Include="Creational\AbstractFactory\Abstract\AbstractFileB.cs" />
